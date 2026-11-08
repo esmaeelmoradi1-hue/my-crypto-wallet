@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#101827">
+<title>کیف پول شخصی من</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ font-family:Tahoma,Arial,sans-serif;
+ background:#101827;
+ color:#fff;
+}
+header{
+ padding:25px 20px;
+ background:#172438;
+}
+h1{font-size:23px;margin:0}
+header p{color:#aab8ca;font-size:13px}
+.container{padding:20px;max-width:600px;margin:auto}
+.balance{
+ background:linear-gradient(135deg,#1769aa,#6338b8);
+ padding:25px;
+ border-radius:18px;
+ margin-bottom:22px;
+}
+.balance small{color:#dce8ff}
+.balance h2{font-size:30px;margin:12px 0}
+.actions{display:flex;gap:12px;margin-bottom:25px}
+button{
+ flex:1;padding:14px;
+ border:0;border-radius:12px;
+ background:#2389e9;color:white;
+ font-size:15px;
+}
+.section-title{font-size:18px;margin:20px 0}
+.coin{
+ background:#1c2b40;
+ padding:17px;
+ border-radius:13px;
+ margin-bottom:12px;
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+}
+.coin-name{font-weight:bold}
+.coin small{display:block;color:#aab8ca;margin-top:7px}
+.symbol{
+ width:42px;height:42px;
+ border-radius:50%;
+ background:#344b68;
+ display:flex;align-items:center;
+ justify-content:center;
+ font-weight:bold;
+ margin-left:12px;
+}
+.left{display:flex;align-items:center}
+.amount{text-align:left;font-size:14px}
+footer{
+ text-align:center;
+ color:#8fa0b5;
+ font-size:12px;
+ padding:25px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>کیف پول شخصی من</h1>
+<p>مدیریت دارایی‌های دیجیتال</p>
+</header>
+
+<div class="container">
+
+<div class="balance">
+<small>موجودی کل کیف پول</small>
+<h2>$0.00</h2>
+<small>نسخه آزمایشی - بدون اتصال به شبکه</small>
+</div>
+
+<div class="actions">
+<button onclick="alert('بخش دریافت در نسخه بعدی فعال می‌شود')">
+دریافت
+</button>
+<button onclick="alert('بخش ارسال در نسخه بعدی فعال می‌شود')">
+ارسال
+</button>
+</div>
+
+<h3 class="section-title">دارایی‌های من</h3>
+
+<div class="coin">
+<div class="left">
+<div class="symbol">₿</div>
+<div>
+<div class="coin-name">Bitcoin</div>
+<small>BTC Network</small>
+</div>
+</div>
+<div class="amount">0 BTC</div>
+</div>
+
+<div class="coin">
+<div class="left">
+<div class="symbol">T</div>
+<div>
+<div class="coin-name">Tether</div>
+<small>TRC20 Network</small>
+</div>
+</div>
+<div class="amount">0 USDT</div>
+</div>
+
+<div class="coin">
+<div class="left">
+<div class="symbol">Ξ</div>
+<div>
+<div class="coin-name">Ethereum</div>
+<small>ETH Network</small>
+</div>
+</div>
+<div class="amount">0 ETH</div>
+</div>
+
+<div class="coin">
+<div class="left">
+<div class="symbol">₮</div>
+<div>
+<div class="coin-name">Tether</div>
+<small>ERC20 Network</small>
+</div>
+</div>
+<div class="amount">0 USDT</div>
+</div>
+
+</div>
+
+<footer>
+کیف پول شخصی دیجیتال من
+<br><br>
+امنیت دارایی‌ها اولویت ماست.
+</footer>
+
+</body>
+</html>
