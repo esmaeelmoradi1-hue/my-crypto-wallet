@@ -1,0 +1,14 @@
+
+{
+  "name": "کیف پول شخصی من",
+  "short_name": "My Wallet",
+  "description": "کیف پول شخصی ارزهای دیجیتال",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#101827",
+  "theme_color": "#101827",
+  "lang": "fa",
+  "dir": "rtl",
+  "icons": []
+}
